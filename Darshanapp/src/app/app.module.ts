@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { LeftPanelComponent } from './components/layout/left-panel/left-panel.component';
+import { LoginComponent } from './components/Auth/login/login.component';
+import { SignUpComponent } from './components/Auth/sign-up/sign-up.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { LeftPanelComponent } from './components/layout/left-panel/left-panel.co
     HeaderComponent,
     FooterComponent,
     LeftPanelComponent,
+    LoginComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
